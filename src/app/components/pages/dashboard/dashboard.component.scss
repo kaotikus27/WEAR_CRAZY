@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kavivanar&display=swap');
+
 
 .dash-container {
     // border: 1px solid red;
@@ -182,7 +181,7 @@
                 padding: 0 20px 0 20px;
 
                 img {
-                    width: 5vw;
+                    width: 50px;
                 }
             }
 
@@ -241,7 +240,7 @@
                 justify-content: center;
                 width: 20%;
                 img {
-                    width: 5vw;
+                    width: 50px;
                 }
             }
 
@@ -253,9 +252,42 @@
     .StorySection{
         margin-top: 30px;
         margin-bottom: 10vh;
-        border: 1px solid red;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title{
+            p{
+                font-family: "Kavivanar", cursive;
+                font-size: 80px;
+                letter-spacing: 3.5px;
+            }
+          
+        }
+     
+       .contained{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       .left{
+        padding: 30px;
+        text-justify: auto;
+        line-height: 30px;
+       }
+       .right{
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+       }
+       }
         img{
-            width: 30%;
+            border-radius: 10px;
+            width: 80%;
+            height: 80%;
+
         }
     }
-}
+
+    
+} 

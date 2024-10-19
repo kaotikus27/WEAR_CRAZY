@@ -1,0 +1,68 @@
+.contact-us--container{
+    margin-bottom: 20px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+
+   
+    .left{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        .title{
+                font-size: 55px;
+                font-family: "Kavivanar", cursive;
+                line-height: 65.5px;
+               
+                margin-bottom: -15px;
+        }
+        
+        .socials{
+            
+            display: flex;
+            flex-direction: row;
+           justify-content: space-around;
+           align-items: center;
+           .shoppee{
+            width: 85px;
+            height: 55px;
+        }
+           img{
+           width: 50px;
+           }
+        }
+    }
+
+    .right{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .hero{
+            
+            display: flex;
+            justify-content: center;    
+        }
+        .get-intouch-container{
+           
+            .title{
+                font-size: 45px;
+                font-weight: bold;
+                color: #A70019;
+                margin-bottom: -20px;
+            }
+           .context{
+            display: flex;
+            flex-direction:row;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+           
+           }
+            img{
+                width: 25px;
+            }
+        }
+    }
+
+}

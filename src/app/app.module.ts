@@ -8,6 +8,7 @@ import { ProductComponent } from './components/pages/product/product.component';
 import { DashboardComponent } from './components/pages/dashboard/dashboard.component';
 import { AboutusComponent } from './components/pages/aboutus/aboutus.component';
 import { CollectionsComponent } from './components/pages/collections/collections.component';
+import { FooterComponent } from './components/pages/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CollectionsComponent } from './components/pages/collections/collections
     ProductComponent,
     DashboardComponent,
     AboutusComponent,
-    CollectionsComponent
+    CollectionsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
